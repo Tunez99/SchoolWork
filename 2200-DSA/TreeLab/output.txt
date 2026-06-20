@@ -1,0 +1,25 @@
+test_get_cousin_dist_example (__main__.TestGenealogy) ... 
+Cousin distances:
+B and C: (0, 0)
+D and E: (0, 0)
+B and F: (0, 1)
+D and F: (1, 0)
+B and D: (-1, 1)
+B and J: (-1, 2)
+J and K: (2, 0)
+J and F: (1, 1)
+D and K: (1, 1)
+B and K: (0, 2)
+ok
+test_get_primogeniture_order_addition (__main__.TestGenealogy) ... 
+Primogeniture after adding X: ['A', 'B', 'D', 'H', 'I', 'X', 'J', 'E', 'C', 'F', 'K', 'G']
+Primogeniture after adding Y: ['A', 'B', 'D', 'H', 'I', 'X', 'J', 'E', 'Y', 'C', 'F', 'K', 'G']
+Primogeniture after adding Z: ['A', 'B', 'D', 'H', 'I', 'X', 'J', 'E', 'Y', 'C', 'F', 'K', 'G', 'Z']
+ok
+test_get_primogeniture_order_example (__main__.TestGenealogy) ... 
+Primogeniture order: ['A', 'B', 'D', 'H', 'I', 'J', 'E', 'C', 'F', 'K', 'G']
+ok
+test_get_seniority_order_addition (__main__.TestGenealogy) ... 
+Seniority after adding X: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'X']
+Seniority after adding Y:
+Process ended with exit code 0.

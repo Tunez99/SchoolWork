@@ -1,0 +1,58 @@
+Starting tests...
+
+Running setup check...
+Testing count_time
+Time: 81 Count: 0
+Time: 84 Count: 2
+Time: 67 Count: 4
+.
+Running setup check...
+Testing get_possible_rank
+Time: 81 Possible rank: 145
+Time: 84 Possible rank: 401
+Time: 67 Possible rank: 232
+.
+Running setup check...
+Testing get_rank_time
+Rank: 163 Time: 93
+Rank: 337 Time: 70
+Rank: 272 Time: 82
+.
+Running setup check...
+Testing get_runs
+Sample leaderboard size: 173
+Sample leaderboard size: 324
+Sample leaderboard size: 108
+.
+Running setup check...
+Running leaderboard example test
+Initial leaderboard: [(876, 'Shizzal'), (887, 'Arok'), (903, 'Dinoz'), (903, 'Hrvatskii'), (903, 'helyonnnnnn'), (913, 'Msushi')]
+Rank 1 time: 876
+Rank 3 time: 903
+Rank 5 time: 903
+Rank 6 time: 913
+Possible rank for time 869: 1
+Submitted run: (869, SiDiouS)
+Possible rank for time 910: 7
+Submitted run: (910, alatreph)
+Submitted run: (910, RealCreative)
+Possible rank for time 890: 4
+Submitted run: (890, Floorb)
+Final leaderboard: [(869, 'SiDiouS'), (876, 'Shizzal'), (887, 'Arok'), (890, 'Floorb'), (903, 'Dinoz'), (903, 'Hrvatskii'), (903, 'helyonnnnnn'), (910, 'RealCreative'), (910, 'alatreph'), (913, 'Msushi')]
+Count time 903: 3
+Count time 910: 2
+Count time 876: 1
+Count time 900: 0
+.
+Running setup check...
+Testing submit_run
+Leaderboard size after submissions: 346
+Leaderboard size after submissions: 278
+Leaderboard size after submissions: 294
+.
+----------------------------------------------------------------------
+Ran 6 tests in 1.588s
+
+OK
+
+Process ended with exit code 0.
